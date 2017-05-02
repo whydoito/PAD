@@ -1,0 +1,9 @@
+<jboss-deployment-structure xmlns="urn:jboss:deployment-structure:1.1">
+	<deployment>
+		<!-- Exclusions allow you to prevent the server from automatically adding some dependencies -->
+		<exclusions>
+			<module name="org.apache.log4j" />
+			<module name="org.slf4j" />
+		</exclusions>
+	</deployment>
+</jboss-deployment-structure>
